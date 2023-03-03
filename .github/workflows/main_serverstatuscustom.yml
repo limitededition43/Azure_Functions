@@ -42,9 +42,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: python-app
-          path: pip install --upgrade setuptools
-            . 
-            !venv/
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
